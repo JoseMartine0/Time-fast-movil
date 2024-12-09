@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_detalle_envio.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título de la pantalla -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detalle del Envío"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:paddingBottom="16dp"/>
+
+    <!-- Número de guía -->
+    <TextView
+        android:id="@+id/tvNumeroGuia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de guía: "
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    <!-- Dirección de origen -->
+    <TextView
+        android:id="@+id/tvDireccionOrigen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección de origen: "
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+
+    <!-- Dirección de destino -->
+    <TextView
+        android:id="@+id/tvDireccionDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección de destino: "
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+
+    <!-- Paquetes contenidos -->
+    <TextView
+        android:id="@+id/tvPaquetes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Paquetes contenidos: "
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+
+    <!-- Estatus -->
+    <TextView
+        android:id="@+id/tvEstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estatus: "
+        android:textSize="14sp"
+        android:textColor="#00796B"/>
+
+    <!-- Datos del cliente -->
+    <TextView
+        android:id="@+id/tvCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos del cliente: "
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:paddingTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvNombreCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre del cliente: "
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+
+    <TextView
+        android:id="@+id/tvTelefonoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teléfono: "
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+
+    <TextView
+        android:id="@+id/tvCorreoCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo electrónico: "
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+</LinearLayout>

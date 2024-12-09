@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_envio.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Número de guía -->
+    <TextView
+        android:id="@+id/tvNumeroGuia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Número de guía: "
+        android:textSize="16sp"
+        android:textColor="#000000"/>
+
+    <!-- Dirección de destino -->
+    <TextView
+        android:id="@+id/tvDireccionDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección de destino: "
+        android:textSize="14sp"
+        android:textColor="#555555"/>
+
+    <!-- Estatus -->
+    <TextView
+        android:id="@+id/tvEstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estatus: "
+        android:textSize="14sp"
+        android:textColor="#00796B"/>
+</LinearLayout>
