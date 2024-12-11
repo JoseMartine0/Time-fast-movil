@@ -23,6 +23,12 @@
             android:exported="true"/>
         <activity
             android:name=".DetalleEnvioActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".EstatusActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".ActualizarPerfilActivity"
             android:exported="true">
 
         <intent-filter>
